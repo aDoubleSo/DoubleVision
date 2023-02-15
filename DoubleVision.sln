@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoubleVision", "DynamicLabel\DoubleVision.csproj", "{698F2FA4-9FE8-4520-8472-B25590D9C694}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowedPlayGround", "WindowedPlayGround\WindowedPlayGround.csproj", "{81EE7DDE-99A4-424C-8606-79B565F4C607}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{698F2FA4-9FE8-4520-8472-B25590D9C694}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{698F2FA4-9FE8-4520-8472-B25590D9C694}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{698F2FA4-9FE8-4520-8472-B25590D9C694}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{698F2FA4-9FE8-4520-8472-B25590D9C694}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81EE7DDE-99A4-424C-8606-79B565F4C607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81EE7DDE-99A4-424C-8606-79B565F4C607}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81EE7DDE-99A4-424C-8606-79B565F4C607}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81EE7DDE-99A4-424C-8606-79B565F4C607}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {902091BA-2AC2-4E26-B3A1-995EAD6340DC}
+	EndGlobalSection
+EndGlobal
