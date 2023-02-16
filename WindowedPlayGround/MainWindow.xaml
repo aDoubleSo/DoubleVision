@@ -8,7 +8,8 @@
         Title="MainWindow" Height="450" Width="800">
 	<Grid>
 		<StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-			<doubleVision:DynamicLabel Text="Foo Bar Baz" FontFamily="Calibri" FontSize="12" Width="90" Height="25" />
+			<doubleVision:DynamicLabel Text="Fooooooo Bar Baz" FontFamily="Calibri" FontSize="12" Width="90" Height="25" ToolTip="Persisting tooltip..."/>
+			<doubleVision:DynamicLabel Text="Foo Bar Baz" FontFamily="Calibri" FontSize="12" Width="90" Height="25"/>
 			<doubleVision:DynamicLabel Text="{Binding Path=PassedText}" FontFamily="Calibri" FontSize="12" Width="90" Height="25" />
 			<doubleVision:DynamicLabel Text="Foo Baaaaaaar Baz" FontFamily="Calibri" FontSize="12" Width="90" Height="25" />
 		</StackPanel>
