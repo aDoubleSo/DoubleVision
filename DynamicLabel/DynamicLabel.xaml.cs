@@ -1,4 +1,7 @@
-﻿using System.Windows;
+﻿using System;
+using System.IO;
+using System.Reflection;
+using System.Windows;
 using System.Windows.Controls;
 
 namespace DoubleVision
@@ -11,6 +14,18 @@ namespace DoubleVision
 		public DynamicLabel()
 		{
 			InitializeComponent();
+
+			var appDomain = AppDomain.CurrentDomain;
+			appDomain.AssemblyResolve += AppDomain_AssemblyResolve;
+		}
+
+		private static Assembly AppDomain_AssemblyResolve(object sender, ResolveEventArgs args)
+		{
+			var folderPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+			var assemblyPath = Path.Combine(folderPath, new AssemblyName(args.Name).Name + ".dll");
+			if (!File.Exists(assemblyPath)) return null;
+			var assembly = Assembly.LoadFrom(assemblyPath);
+			return assembly;
 		}
 
 		/// <summary>
