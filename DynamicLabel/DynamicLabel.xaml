@@ -8,6 +8,7 @@
 		<Label>
 			<TextBlock Name="TextBlock" 
 		           Text="{Binding Text, RelativeSource={RelativeSource AncestorType=UserControl}}" 
+		           Foreground="{Binding Foreground, RelativeSource={RelativeSource AncestorType=UserControl}}"
 		           TextTrimming="CharacterEllipsis" 
 		           SizeChanged="TextBlock_OnSizeChanged"
 		           />

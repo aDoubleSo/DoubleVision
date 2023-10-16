@@ -5,13 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
         xmlns:doubleVision="clr-namespace:DoubleVision;assembly=DoubleVision"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="300" Width="190">
 	<Grid>
 		<StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-			<doubleVision:DynamicLabel Text="Fooooooo Bar Baz" FontFamily="Calibri" FontSize="12" Width="90" Height="25" ToolTip="Persisting tooltip..."/>
-			<doubleVision:DynamicLabel Text="Foo Bar Baz" FontFamily="Calibri" FontSize="12" Width="90" Height="25"/>
-			<doubleVision:DynamicLabel Text="{Binding Path=PassedText}" FontFamily="Calibri" FontSize="12" Width="90" Height="25" />
-			<doubleVision:DynamicLabel Text="Foo Baaaaaaar Baz" FontFamily="Calibri" FontSize="12" Width="90" Height="25" />
+			<doubleVision:DynamicLabel Text="Fooooooo Bar Baz" FontFamily="Calibri" FontSize="22" ToolTip="Persisting tooltip..."/>
+			<doubleVision:DynamicLabel Text="Foo Bar Baz" FontFamily="Calibri" FontSize="22" Foreground="Orange"/>
+			<doubleVision:DynamicLabel Text="{Binding Path=PassedText}" FontFamily="Calibri" FontSize="22"/>
+			<doubleVision:DynamicLabel Text="Foo Baaaaaaar Baz" FontFamily="Calibri" FontSize="22" />
 		</StackPanel>
 	</Grid>
 </Window>
